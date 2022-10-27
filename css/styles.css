@@ -118,3 +118,48 @@ img {
 }
 
 /* hero section */
+
+.hero-section .container {
+  display: flex;
+  gap: 144px;
+  padding-bottom: 180px;
+}
+
+.title-box {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+  color: var(--primary-black-color);
+  max-width: 386px;
+  margin-bottom: 40px;
+}
+
+.hero-description {
+  font-size: 24px;
+  line-height: 1.5;
+  max-width: 540px;
+  margin-bottom: 60px;
+}
+
+.start-btn {
+  font-family: inherit;
+  font-size: 36px;
+  text-align: center;
+  line-height: inherit;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+  background-color: var(--interactive-color);
+  border: transparent;
+  border-radius: 10px;
+
+  min-width: 426px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  cursor: pointer;
+}
