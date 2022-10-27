@@ -1,0 +1,60 @@
+:root {
+  --primary-white-color: #ffffff;
+  --primary-black-color: #000000;
+  --accent-color: #939393;
+  --interactive-color: #263238;
+  --basic-text-color: #8f95a5;
+  --span-color: #2a3246;
+  --price-label-color: #546269;
+  --label-bg-color: #eeeeee;
+  --footer-line-color: #c4c4c4;
+}
+
+/* basic rules */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--basic-text-color);
+  background-color: var(--primary-white-color);
+  line-height: 1.5;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 1338px;
+  padding-left: 131px;
+  padding-right: 131px;
+  margin: 0 auto;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--basic-text-color);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
