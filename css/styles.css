@@ -30,10 +30,11 @@ html {
 }
 
 .container {
-  width: 1338px;
-  padding-left: 131px;
-  padding-right: 131px;
-  margin: 0 auto;
+  width: 1378px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list {
@@ -58,3 +59,62 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* header section */
+
+.header {
+  line-height: 1.5;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 36px;
+  color: var(--primary-black-color);
+  margin-right: 236px;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.nav-list {
+  font-weight: 500;
+  font-size: 20px;
+
+  display: flex;
+  gap: 50px;
+}
+
+.nav-link {
+  display: inline-block;
+  display: block;
+  color: var(--interactive-color);
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.contact-btn {
+  display: inline-block;
+  font-family: inherit;
+  font-size: 20px;
+  text-align: center;
+  line-height: inherit;
+  letter-spacing: 0.03em;
+  color: var(--primary-black-color);
+  background-color: transparent;
+  border: 2px solid var(--interactive-color);
+  border-radius: 10px;
+
+  min-width: 312px;
+  max-height: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+/* hero section */
