@@ -241,6 +241,7 @@ img {
   min-width: 218px;
   padding-top: 15px;
   padding-bottom: 15px;
+  cursor: pointer;
 }
 
 .listening {
@@ -405,4 +406,33 @@ img {
   font-size: 20px;
   max-width: 654px;
   margin-bottom: 30px;
+}
+
+.form-field {
+  display: flex;
+  gap: 30px;
+}
+
+.form-holder {
+  min-width: 425px;
+  min-height: 70px;
+  border: 1px solid var(--basic-text-color);
+  border-radius: 10px;
+  padding-left: 30px;
+}
+
+.form-holder [placeholder] {
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.form-btn {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--primary-white-color);
+  letter-spacing: 0.03em;
+  background-color: var(--interactive-color);
+  border-radius: 10px;
+  min-width: 312px;
+  cursor: pointer;
 }
