@@ -87,6 +87,7 @@ img {
 
 .logo {
   font-size: 36px;
+  font-weight: 400;
   color: var(--primary-black-color);
   margin-right: 236px;
 }
@@ -238,6 +239,7 @@ img {
   color: var(--primary-white-color);
   background: var(--interactive-color);
   border-radius: 10px;
+  border-color: transparent;
   min-width: 218px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -365,6 +367,7 @@ img {
   align-items: baseline;
   gap: 28.17px;
   background-color: var(--label-bg-color);
+  border-radius: 5px;
   min-width: 260px;
   padding-top: 5px;
   padding-bottom: 4px;
@@ -432,7 +435,35 @@ img {
   color: var(--primary-white-color);
   letter-spacing: 0.03em;
   background-color: var(--interactive-color);
+  border-color: transparent;
   border-radius: 10px;
   min-width: 312px;
   cursor: pointer;
+}
+
+/* ----------footer-section---------- */
+
+.footer {
+  line-height: 1.5;
+  padding-bottom: 55px;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--footer-line-color);
+}
+
+.footer-nav {
+  display: flex;
+  gap: 80px;
+  margin-left: auto;
+}
+
+.footer .link {
+  display: inline-block;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  padding-top: 31px;
+  padding-bottom: 31px;
 }
