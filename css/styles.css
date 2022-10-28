@@ -11,7 +11,7 @@
   --footer-line-color: #c4c4c4;
 }
 
-/*----------basic rules----------*/
+/* ----------basic rules---------- */
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -73,7 +73,7 @@ img {
   padding-bottom: 90px;
 }
 
-/*----------header section----------*/
+/* ----------header section---------- */
 
 .header {
   line-height: 1.5;
@@ -130,7 +130,7 @@ img {
   margin-left: auto;
 }
 
-/*----------hero section----------*/
+/* ----------hero section---------- */
 
 .hero-section {
   padding-bottom: 90px;
@@ -180,7 +180,7 @@ img {
   cursor: pointer;
 }
 
-/*----------skills-section----------*/
+/* ----------skills-section---------- */
 
 .skills .title {
   text-align: center;
@@ -226,10 +226,12 @@ img {
 }
 
 .inform-btn {
+  font-size: 20px;
+  line-height: inherit;
   color: var(--primary-white-color);
   background: var(--interactive-color);
   border-radius: 10px;
-  min-width: 230px;
+  min-width: 218px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -243,7 +245,7 @@ img {
 .skills .skills-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   grid-column-gap: 30px;
   grid-row-gap: 30px;
 }
@@ -259,4 +261,47 @@ img {
 }
 .listening {
   grid-area: 2 / 2 / 3 / 4;
+}
+
+/* ----------about section---------- */
+
+.about .container {
+  display: flex;
+  gap: 146px;
+  line-height: 1.5;
+}
+
+.about .title {
+  margin-bottom: 60px;
+}
+
+.about-text {
+  font-size: 20px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.number-list {
+  text-align: center;
+  display: flex;
+  gap: 131px;
+  max-width: 555px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.number-list .item {
+  flex-basis: calc((100% - 2 * 131px) / 3);
+}
+
+.about .number {
+  display: block;
+  font-weight: 600;
+  font-size: 48px;
+  color: var(--span-color);
+  margin-bottom: 6px;
+}
+
+.about .number-label {
+  font-size: 20px;
 }
