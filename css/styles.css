@@ -17,7 +17,6 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--basic-text-color);
   background-color: var(--primary-white-color);
-  line-height: 1.5;
 }
 
 html {
@@ -77,6 +76,7 @@ img {
 
 .header {
   line-height: 1.5;
+  background-color: var(--primary-white-color);
 }
 
 .header .container {
@@ -133,7 +133,9 @@ img {
 /* ----------hero section---------- */
 
 .hero-section {
+  line-height: 1.5;
   padding-bottom: 90px;
+  background-color: var(--primary-white-color);
 }
 
 .hero-section .container {
@@ -181,6 +183,11 @@ img {
 }
 
 /* ----------skills-section---------- */
+
+.skills {
+  line-height: 1.5;
+  background-color: var(--primary-white-color);
+}
 
 .skills .title {
   text-align: center;
@@ -265,10 +272,14 @@ img {
 
 /* ----------about section---------- */
 
+.about {
+  line-height: 1.5;
+  background-color: var(--primary-white-color);
+}
+
 .about .container {
   display: flex;
   gap: 146px;
-  line-height: 1.5;
 }
 
 .about .title {
@@ -304,4 +315,71 @@ img {
 
 .about .number-label {
   font-size: 20px;
+}
+
+/* ----------pricing section---------- */
+
+.pricing {
+  line-height: 1.5;
+  background-color: var(--primary-white-color);
+}
+
+.pricing .title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.price-cards {
+  display: flex;
+  gap: 30px;
+}
+
+.price-card {
+  position: relative;
+  flex-basis: calc((100% - 2 * 30px) / 3);
+  min-height: 584px;
+}
+
+.price-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 320px;
+  margin-bottom: 32px;
+}
+
+.price-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.6;
+  color: var(--span-color);
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.price-description {
+  font-size: 20px;
+}
+
+.price-label {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 28.17px;
+  background-color: var(--label-bg-color);
+  min-width: 260px;
+  padding-top: 5px;
+  padding-bottom: 4px;
+}
+
+.price-number {
+  font-size: 24px;
+  color: var(--interactive-color);
+}
+
+.price-text {
+  font-size: 18px;
+  color: var(--price-label-color);
 }
